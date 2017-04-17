@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { File } from '@ionic-native/file';
 
 /*
   Generated class for the ModalAnexo page.
@@ -13,10 +14,13 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class ModalAnexoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams,private file: File) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ModalAnexoPage');
+  }
+
+  adicionarFotos(){
   }
 
 }

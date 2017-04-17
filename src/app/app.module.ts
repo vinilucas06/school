@@ -1,6 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { File } from '@ionic-native/file';
 
 
 
@@ -17,6 +18,7 @@ import { ModalAnexoPage } from '../pages/modals/modal-anexo/modal-anexo';
 @NgModule({
   declarations: [
     MyApp,
+    File,
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
@@ -33,6 +35,7 @@ import { ModalAnexoPage } from '../pages/modals/modal-anexo/modal-anexo';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    File,
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
