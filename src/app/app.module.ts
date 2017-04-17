@@ -4,7 +4,7 @@ import { MyApp } from './app.component';
 import { File } from '@ionic-native/file';
 
 
-
+ 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
